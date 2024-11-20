@@ -1,0 +1,116 @@
+body {font-family: "Gill Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+  background: linear-gradient(to bottom, #8fc7d1, #6eb4c0);
+  font-family: "Gill Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('125.jpg') no-repeat center center fixed;
+    background-size: cover;
+  animation: fadeIn 1s ease; /* Анимация появления */
+}
+#contacts {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+header {
+  background-color: rgba(0, 128, 255, 0.5); /* Полупрозрачный голубой цвет фона */
+    padding: 10px;
+    text-align: center;
+}
+
+#about {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.6); /* полупрозрачный белый фон */
+  text-align: center;
+}
+#portfolio {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.6); /* полупрозрачный белый фон */
+  text-align: center;
+}
+#contacts, header, #about, #portfolio, nav, #contact {
+  border-radius: 10px;
+  transition: box-shadow 0.3s; /* Анимация тени */
+}
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+img {
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.portfolio-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Две колонны */
+    grid-gap: 20px;
+}
+.portfolio-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+     transition: color 0.3s; /* Анимация цвета ссылки */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+#contact {
+border: 1px solid gray;
+    border-radius: 10px;
+  background: url('126.jpg') no-repeat center center fixed;
+  background-size: cover;
+    padding: 10px;
+    text-align: center;
+}
+#contact:hover,
+#contacts:hover,
+header:hover,
+#about:hover,
+#portfolio:hover,
+nav:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Анимация тени при наведении */
+}
